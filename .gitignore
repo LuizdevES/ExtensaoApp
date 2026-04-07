@@ -1,0 +1,36 @@
+# Dependencies
+**/node_modules/
+
+# Expo
+meu-projeto/.expo/
+meu-projeto/dist/
+meu-projeto/web-build/
+meu-projeto/expo-env.d.ts
+
+# Native (Expo)
+meu-projeto/.kotlin/
+meu-projeto/*.orig.*
+meu-projeto/*.jks
+meu-projeto/*.p8
+meu-projeto/*.p12
+meu-projeto/*.key
+meu-projeto/*.mobileprovision
+
+# Metro
+meu-projeto/.metro-health-check*
+
+# Backend (MinhaAPI)
+MinhaAPI/.env
+MinhaAPI/*.log
+
+# Debug
+**/npm-debug.*
+**/yarn-debug.*
+**/yarn-error.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# local env files
+.env*.local
